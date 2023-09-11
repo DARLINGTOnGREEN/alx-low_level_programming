@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
- * main - printout both lower and upercase alpahbeth
+ * main - printout lower and upercase alpahbeth
  *
- * return: 0.
+ * Return: 0.
  */
 int main(void)
 {
-	char letter;
+	char x , b;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-		putchar(letter);
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
 
 	putchar('\n');
 
