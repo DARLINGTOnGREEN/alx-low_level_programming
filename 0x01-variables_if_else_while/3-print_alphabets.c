@@ -4,19 +4,17 @@
  *
  * return: 0.
  */
-
-int main ()
+int main(void)
 {
-    char letter , b;
+	char x , b;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-        putchar(letter);
-    for (b = 'A'; b <= 'Z'; b++)
-        putchar(b);
-    
+	for (x = 'a'; x <= 'z'; x++)
+		putchar(x);
+	for (b = 'A'; b <= 'Z'; b++)
+		putchar(b);
+	
+	putchar('\n');
+	
 
-    putchar('\n');
-
-    return (0);
+	return (0);
 }
-
