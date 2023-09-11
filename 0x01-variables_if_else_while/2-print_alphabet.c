@@ -2,10 +2,10 @@
 /**
  * main - print letters in lowercase
  *
- * return: always 0.
+ * return: Always 0.
  */
-int main(void)
-{
+ int main(void)
+ {
 	char b;
 
 	for (b = 'a'; b <= 'z'; b++)
@@ -14,5 +14,5 @@ int main(void)
 
 	return (0);
 
-}
+ }
 	
