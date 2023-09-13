@@ -5,7 +5,6 @@
  * Return: 0.
  */
 
-void _putchar(char c);
 
 int main(void)
 {	
