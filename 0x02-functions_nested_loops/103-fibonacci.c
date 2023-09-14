@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: prints even number < 4000000.
- * Return 0.
+ * Return: 0.
  */
 int main(void)
 {
