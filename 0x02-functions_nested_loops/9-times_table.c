@@ -10,6 +10,7 @@ void times_table(void)
 	int rep;
 	while (a <= 9)
 	{
+
 		b = 0;
 		while (b <= 9)
 		{
@@ -21,7 +22,7 @@ void times_table(void)
 			else if (rep < 10)
 			{
 				_putchar(' ');
-				_putchar('0' +rep);
+				_putchar('0' + rep);
 			}
 			else
 			{
