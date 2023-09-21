@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * *rot13 - encodes a string using rot13.
- * @s: int type array pointer
- * Return: encoded
+ * *rot13 - encodes string using rot13.
+ * @s: int type array pointer.
+ * Return: void.
  */
 
 char *rot13(char *s)
