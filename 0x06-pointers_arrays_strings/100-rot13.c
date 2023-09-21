@@ -3,7 +3,7 @@
 /**
  * *rot13 - encodes a string using rot13.
  * @s: int type array pointer
- * Return: void
+ * Return: encoded
  */
 
 char *rot13(char *s)
