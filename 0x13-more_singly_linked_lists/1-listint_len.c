@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * listint_len - unction that returns the number of elements in a linked listint_t list
+ * listint_len - function that returns number of elements listint_t list
  * @h: pointer to the head of listint_t
  * Return: num of elements in listint_t list
  */
