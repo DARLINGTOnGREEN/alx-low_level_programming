@@ -2,7 +2,7 @@
 
 /**
  * print_listint_safe - counts and prints all the elements of a linked list
- * @head: pointer to the head of listint_t 
+ * @head: pointer to the head of listint_t
  *
  * Return: the number of nodes
  */
