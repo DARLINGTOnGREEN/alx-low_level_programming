@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/DARLINGTOnGREEN/alx-low_level_programming/raw/master/0x18-dynamic_libraries/nrandom.so
-export LD_PRELOAD=/tmp/nrandom.so
+wget -P .. https://raw.githubusercontent.com/DARLINGTOnGREEN/alx-low_level_programming/master/0x18-dynamic_libraries/libhack.so
+export LD_PRELOAD="$PWD/../libhack.so"
